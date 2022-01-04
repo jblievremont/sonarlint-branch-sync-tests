@@ -4,13 +4,13 @@
 
 import sys
 
-from lib.hello import sayHello
+from lib.hello import say_hello
 
 def main(args):
     if len(args) < 2:
         print(f'Usage: {args[0]} <name>')
         sys.exit(1)
-    sayHello(args[1])
+    say_hello(args[1])
 
 if __name__ == '__main__':
     main(sys.argv)
