@@ -9,6 +9,7 @@ from lib.hello import say_hello
 def main(args):
     i = 0
     j = 0
+    k = 0
     if len(args) < 2:
         print(f'Usage: {args[0]} <name>')
         sys.exit(1)
